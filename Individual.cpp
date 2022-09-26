@@ -24,6 +24,11 @@ Individual::Individual(int lenght, string b_str)
 	this->length = lenght;
 }
 
+Individual::~Individual()
+{
+
+}
+
 string Individual::getString() {
 	return binaryString;
 }

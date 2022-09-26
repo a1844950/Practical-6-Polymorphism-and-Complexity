@@ -14,7 +14,7 @@ private:
 public:
 	Individual(string bin_str);
 	Individual(int ,string ="");
-
+	~Individual();
 	string getString();
 	int getBit(int pos);
 	void flipBit(int pos);
